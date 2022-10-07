@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/style.css" />
 
 <title>태권도 뉴스</title>
 
@@ -41,8 +42,7 @@
 		<!-- 바디 부분 -->
 		<div style="padding: 0px 16px">
 			<!-- 메뉴 -->
-			<div
-				style="margin-top: 16px; width: 100%; display: flex; flex-direction: row; justify-content: space-around">
+			<div style="margin-top: 16px; width: 100%; display: flex; flex-direction: row; justify-content: space-around">
 				<a href="#" style="display: flex; flex-direction: column; align-items: center">
 					<img src="images/logo1.jpg" alt="자격조회" /><br /> <span>자격조회</span>
 				</a> 
@@ -76,17 +76,20 @@
 
 NYT에 따르면 태권도는 2000년 시드니 올림픽에서 정식 종목으로 채택된 이후 12개 이상 국가에 ‘사상 첫 올림픽 메달’을 안겼다.</div>
 				</div>
-				<div
-					style="margin-left: 32px; border: 1px solide black; width: 100%;">
+				<div id="windowcon" style="margin-left: 32px; border: 1px solide black; width: 100%;">
 					<!-- 상품이미지 -->
-					<div style="display: flex; flex-direction: row; width: 150px; height: 160px; text-align: -webkit-center; position: absolute; right: 48%;">
-						<a href="#"><span><img style="margin: 1rem;" alt="태권도 화" src="images/item2.jpg" />￦50,000원</span>	</a>					
-						<a href="#"><span><img style="margin: 1rem;" alt="도복" src="images/item1.jpg" /> ￦40,000원</span></a>
-						<a href="#"><span><img style="margin: 1rem;" alt="미트" src="images/item3.jpg" /> ￦60,000원</span></a>
-						<a href="#"><span><img style="margin: 1rem;" alt="호구" src="images/item4.jpg" /> ￦100,000원</span></a>
+				<div id="tontainer"  style="overflow: hidden; position: relative;">
+					<div id="img" style="width:100%; height:100%; position:absolute; left:0%;">						
+						<a href="#"><img style="margin: 1rem; display: block; position: absolute;" alt="태권도 화" src="images/item2.jpg" />￦50,000원</a>					
+						<a href="#"><img style="margin: 1rem; display: block; position: absolute;" alt="도복" src="images/item1.jpg" /> ￦40,000원</a>
+						<a href="#"><img style="margin: 1rem; display: block; position: absolute;" alt="미트" src="images/item3.jpg" /> ￦60,000원</a>
+						<a href="#"><img style="margin: 1rem; display: block; position: absolute;" alt="호구" src="images/item4.jpg" /> ￦100,000원</a>
+						<a href="#"><img style="margin: 1rem; display: block; position: absolute;" alt="호구" src="images/item5.jpg" /> ￦100,000원</a>
+						<a href="#"><img style="margin: 1rem; display: block; position: absolute;" alt="도복" src="images/item1.jpg" /> ￦40,000원</a>
+				</div>
 					</div>
 					<!-- 공지사항 -->					
-					<div style="position: absolute; margin-top: 15rem; height: 160px; padding: 12px 24px; background-color: white; border: 1px solid #dcdcdc; width: 500px; margin-left: -6.7rem;">
+					<div  style="position: absolute; margin-top: 12rem; height: 138px; padding: 12px 24px; background-color: #DBDBDBDB; border: 1px solid #111; width: 562px; margin-left: -5.7rem;">
 						<div style="display: flex; font-size: 20px; border-bottom: double; margin-bottom: 0.5rem; align-items: center;">
 						<p>※공지사항※</p><hr>
 						</div>	
@@ -96,8 +99,7 @@ NYT에 따르면 태권도는 2000년 시드니 올림픽에서 정식 종목으
 						<p style="display: inherit;"><a href="#"><span>[주택특별공급] 엘리프 아산탕정(~10.14.)</span></a></p>
 						<p style="display: inherit;"><a href="#"><span>제57회 대통령기 전국단체대항태권도대회(격파) 개최 알림</span></a></p>					
 						</div>
-					</div>
-					
+					</div>					
 				</div>
 			
 			</div>
@@ -139,7 +141,7 @@ NYT에 따르면 태권도는 2000년 시드니 올림픽에서 정식 종목으
 			</div>
 				</footer>
 			</div>
-			<script src="script/login.js"></script>
+			<script src="script/index.js"></script>
 		
 </body>
 </html>
