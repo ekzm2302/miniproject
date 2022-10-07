@@ -8,32 +8,30 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-
-<title>태권도 뉴스</title>
 <link rel="stylesheet" href="css/reset.css" />
 
+<title>태권도 뉴스</title>
+
 </head>
-<body>
+<body style="background-color: #FAFAFA">
 	<!-- 첫 부분 박스 -->
 	<div style="font-family: Noto Sans KR">
 		<!-- 사이 간격 패딩 -->
 		<div style="padding: .5rem 16px; border-bottom: 1px solid black;">
-			<!-- 헤더 -->
-			<div
-				style="position: relative; display: flex; flex-direction: row; align-items: center; justify-content: space-between; height: 100px; width: 100%">
+			<!-- 헤더 -->				
+				
+				<div style="position: relative; display: flex; flex-direction: row; align-items: center; justify-content: space-between; height: 100px; width: 100%">
 				<!-- 로고 -->
 				<div>
-					<img src="images/mainlogo.jpg" alt="로고" />
+					<a href="#"><img src="images/mainlogo.jpg" alt="로고" /></a>
 				</div>
 				<!-- 제목 -->
-				<div
-					style="position: absolute; width: 100%; height: 100px; display: flex; flex-direction: row; align-items: center; justify-content: center; font-size: 30px;">
-					<div><a href="#">태 권 도</a></div>
+				<div style="position: absolute; width: 100%; height: 100px; display: flex; flex-direction: row; align-items: center; justify-content: center; font-size: 30px; z-index: -99;">
+					<a href="#">태 권 도</a>
 				</div>
 				<!-- 로그인 및 메뉴 -->
-				<div
-					style="height: 100%; display: flex; align-items: flex-end; justify-content: flex-end; width: 300px; margin-bottom: 8px">
-					<a href="#" style="margin-right: 28px">login</a>
+				<div style="height: 100%; display: flex; align-items: flex-end; justify-content: flex-end; width: 300px; margin-bottom: 8px">
+					<a href="login.html" style="margin-right: 28px">login</a>
 					<a href="#" style="margin-right: 28px">회원가입</a>
 					<a href="#">사이트맵</a>
 				</div>
@@ -81,21 +79,27 @@ NYT에 따르면 태권도는 2000년 시드니 올림픽에서 정식 종목으
 				<div
 					style="margin-left: 32px; border: 1px solide black; width: 100%;">
 					<!-- 상품이미지 -->
-					<div
-						style="display: flex; flex-direction: row; width: 150px; height: 160px;">
-						<span><img style="margin: 1rem;" alt="태권도 화"
-							src="images/item2.jpg" />￦30,000원</span> <span><img
-							style="margin: 1rem;" alt="도복" src="images/item1.jpg" /> ￦30,000원</span>
-						<span><img style="margin: 1rem;" alt="미트"
-							src="images/item3.jpg" /> ￦30,000원</span> <span><img
-							style="margin: 1rem;" alt="호구" src="images/item4.jpg" /> ￦30,000원</span>
+					<div style="display: flex; flex-direction: row; width: 150px; height: 160px; text-align: -webkit-center; position: absolute; right: 48%;">
+						<a href="#"><span><img style="margin: 1rem;" alt="태권도 화" src="images/item2.jpg" />￦50,000원</span>	</a>					
+						<a href="#"><span><img style="margin: 1rem;" alt="도복" src="images/item1.jpg" /> ￦40,000원</span></a>
+						<a href="#"><span><img style="margin: 1rem;" alt="미트" src="images/item3.jpg" /> ￦60,000원</span></a>
+						<a href="#"><span><img style="margin: 1rem;" alt="호구" src="images/item4.jpg" /> ￦100,000원</span></a>
 					</div>
-					<!-- 공지사항 -->
-					<div
-						style="margin-top: 5rem; height: 200px; padding: 12px 24px; background-color: #C8D2EC;">
-						<p>공지사항</p>
+					<!-- 공지사항 -->					
+					<div style="position: absolute; margin-top: 15rem; height: 160px; padding: 12px 24px; background-color: white; border: 1px solid #dcdcdc; width: 500px; margin-left: -6.7rem;">
+						<div style="display: flex; font-size: 20px; border-bottom: double; margin-bottom: 0.5rem; align-items: center;">
+						<p>※공지사항※</p><hr>
+						</div>	
+						<div style="flex-direction: column; display: list-item; margin-inline: 1rem;">											
+						<p style="display: inherit;"><a href="#"><span>2022년 선수경력자 인턴십 프로그램 인턴 참여자 추가 모집 안내</span></a></p>
+						<p style="display: inherit;"><a href="#"><span>스포츠윤리센터 법정의무교육 관련 안내</span></a></p>
+						<p style="display: inherit;"><a href="#"><span>[주택특별공급] 엘리프 아산탕정(~10.14.)</span></a></p>
+						<p style="display: inherit;"><a href="#"><span>제57회 대통령기 전국단체대항태권도대회(격파) 개최 알림</span></a></p>					
+						</div>
 					</div>
+					
 				</div>
+			
 			</div>
 
 			<!--  뉴스2 !-->
@@ -109,9 +113,15 @@ NYT에 따르면 태권도는 2000년 시드니 올림픽에서 정식 종목으
 						선보일 예정이다.</div>
 				</div>
 				<!--   다시보는 세계 선수권 대회 !-->
-				<div></div>
+								
 			</div>
-			<img alt="유튜브" src="">
+				<!--   다시보는 세계 선수권 대회 !-->
+			<div style="position: absolute; top: 73%; right: -45%; width: 100%; height: 100%;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/EakYl8sqbyA" 
+					title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+			</div>
+	</div>
 
 			<!-- 푸터 !-->
 				<footer>
@@ -129,6 +139,7 @@ NYT에 따르면 태권도는 2000년 시드니 올림픽에서 정식 종목으
 			</div>
 				</footer>
 			</div>
-		</div>
+			<script src="script/login.js"></script>
+		
 </body>
 </html>
