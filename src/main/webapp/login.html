@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, inintial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>태권도 로그인</title>
 		<link href="images/favicon.ico" rel="shortcut icon">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,7 @@
 	</head>
 	<body style="background-color: #FAFAFA">
 		<!-- 첫 부분 박스 -->		
-	<div style="font-family: Noto Sans KR;">
+	<div style="font-family: Noto Sans KR; width: 100%; ">
 		<!-- 사이 간격 패딩 -->
 		<div style="padding: .5rem 16px; border-bottom: 1px solid black;">
 			<!-- 헤더 -->
@@ -23,7 +23,7 @@
 					<a href="index.html"><img src="images/mainlogo.jpg" alt="로고" /></a>
 				</div>
 				<!-- 제목 -->
-				<div style="position: absolute; width: 100%; height: 100px; display: flex; flex-direction: row; align-items: center; justify-content: center; font-size: 30px; z-index: -99;">
+				<div style="position: absolute; width: 100%;  display: flex; flex-direction: row; align-items: center; justify-content: center; font-size: 30px; ">
 					<a href="index.html">태 권 도</a>
 				</div>
 				<!-- 로그인 및 메뉴 -->
@@ -62,14 +62,14 @@
 		</div>	
 		<article >
         <div style="display: flex; position: absolute; flex-direction: column; align-items: center; width: 350px; height: 380px;
-        			 top: 45%; right: 43%; margin:0; background-color: white;  border: 1px solid #DBDBDB; ">  
+        			 top: 45%; right: 37%; margin:0; background-color: white;  border: 1px solid #DBDBDB; ">  
             <div style=" margin :30px 0 30px 0; color:#262626; font-family: 'Lobster', cursive; font-size: 40px;">태권도 로그인
             </div>
             <form style="display: flex; flex-direction: column; width: 280px; margin-top: 15px;">
-            	<div style="width: 100%; height: 40px; margin: 3px 0 3px 0; padding: 0 10px 0 10px; background-color: #FAFAFA; border: 1px solid #DBDBDB; border-radius: 3px; outline: 1px solid #a8a8a8;
-    					color: #262626;">
-                <input  id="LOGIN_ID" type="text" name="id" placeholder="전화번호, 사용자 이름 또는 이메일">
-                <input  id="LOGIN_PW" type="password" name="id" placeholder="비밀번호">
+            	<div style="width: 93%; height: 50px; margin: 4px 0 -5px 1; padding: 0 10px 0 10px; background-color: #FAFAFA; border: 1px solid #DBDBDB; border-radius: 3px; outline: 1px solid #a8a8a8;
+    					color: #262626;"> 
+                <input style="width: 100%; height: 16px; margin: 0 0px 0px -6px;"  id="LOGIN_ID" type="text" name="id" placeholder="전화번호, 사용자 이름 또는 이메일">
+                <input style="width: 100%; height: 16px; margin: 0 0px -8px -6px;" id="LOGIN_PW" type="password" name="id" placeholder="비밀번호">
                 </div>
                 <button style="width: 100%; height: 33px; margin: 10px 0 5px 0; color: white; background-color: #c0DFFD; border-radius: 5px; border-style: none; font-size: 15px; font-weight: bold; cursor: pointer; margin-top: 65px; font-size: 13px;" 
                 		id="LOGIN_BTN" type="button" disabled>로그인</button>
