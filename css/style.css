@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import "reset.css";
+* {
+	margin: 0;
+	padding: 0;
+	}
+	
+html { 
+	scroll-behavior: smooth;
+	font-size: 20px
+
+ } /* 폰트 기준 */
+
+ .color black {
+	color: black
+	;
+ }
+
+
+
+
+
+
